@@ -40,5 +40,5 @@ jobs:
           echo is Git installed ?
           git --version
           echo What about build tools ?
-          mavn --version
+          mvn --version
           .
