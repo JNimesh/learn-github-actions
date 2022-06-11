@@ -41,3 +41,11 @@ jobs:
           git --version
           echo What about build tools ?
           mvn --version
+          echo what is the workspace location ?
+          echo $RUNNER_WORKSPACE
+          echo Who is running this script
+          whoami
+          echo how is the disk laid?
+          df
+          echo Environment variables ?
+          env          
